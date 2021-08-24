@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  hello-java:
+      image: jenkins_test:1.0
+      ports:
+      - 8080:8080
+
+  hello-java1:
+    image: jenkins_test:1.0
+    ports:
+    - 8081:8080
